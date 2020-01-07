@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pet-project-api-pkg-bloomsamyk",  # Replace with your own username
+    name="pet-project-api-pkg-bloomsamyk",
     version="0.0.1",
     author="Bloomsamyk",
     author_email="bloomsamyk@gmail.com",
     description="Pet project API package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/bloomsamyk/pet-project-api",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
